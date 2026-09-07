@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sudoku Solver | Java Backtracking Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">COMPUTER TECHNOLOGY PROJECT</p>
+        <h1>Sudoku Solver</h1>
+        <p class="subtitle">Solve any valid 9×9 Sudoku puzzle instantly using the Backtracking algorithm.</p>
+      </div>
+      <div class="badge">Java • Backtracking</div>
+    </section>
+
+    <section class="card">
+      <div class="toolbar">
+        <button id="solveBtn">Solve Sudoku</button>
+        <button id="clearBtn" class="secondary">Clear</button>
+        <button id="exampleBtn" class="secondary">Load Example</button>
+      </div>
+
+      <div id="status" class="status">Enter numbers from 1–9. Leave empty cells blank.</div>
+
+      <div id="board" class="board" aria-label="Sudoku board"></div>
+
+      <div class="legend">
+        <span><i class="dot given"></i> Given</span>
+        <span><i class="dot solved"></i> Solved</span>
+      </div>
+    </section>
+
+    <section class="info">
+      <div>
+        <h2>How it works</h2>
+        <p>The solver uses backtracking: it finds an empty cell, tries valid numbers, and backtracks whenever a choice leads to a dead end.</p>
+      </div>
+      <div>
+        <h2>Project</h2>
+        <p>Java implementation by Tasneem Sakriwala.</p>
+        <a href="https://github.com/tasneemsakriwl5253/Sudoku-Solver-Java" target="_blank" rel="noopener">View Java source on GitHub →</a>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
